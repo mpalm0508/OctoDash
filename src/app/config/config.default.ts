@@ -2,7 +2,7 @@ import { Config } from './config.model';
 
 export const defaultConfig: Config = {
   octoprint: {
-    url: 'http://localhost:5000/api/',
+    url: 'http://localhost:5000/',
     accessToken: '',
   },
   printer: {
@@ -92,8 +92,8 @@ export const defaultConfig: Config = {
         exit: false,
       },
       {
-        icon: 'skull',
-        command: '[!KILL]',
+        icon: 'power-off',
+        command: '[!SHUTDOWN]',
         color: '#e84118',
         confirm: true,
         exit: false,
